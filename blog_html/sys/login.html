@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>登录</title>
+
+    <!-- Bootstrap -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../css/index.css">
+    <!--[if lt IE 9]>
+      <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link rel="icon" href="../img/monkey.ico">
+  </head>
+  <body class="">
+    <div class="">
+          <div class="panel panel-default center-block" style="max-width:400px;">
+            <div class="panel-heading">
+              <h3 class="panel-title">登录系统</h3>
+            </div>
+            <div class="panel-body">
+              <form>
+                <div class="form-group">
+                  <label for="userNameID">UserName:</label>
+                  <input type="text" class="form-control" id="userNameID" placeholder="用户名">
+                </div>
+                <div class="form-group">
+                  <label for="passwordID">Password:</label>
+                  <input type="password" class="form-control" id="passwordID" placeholder="密    码">
+                </div>
+                <button type="submit" class="btn btn-primary btn-block ">登录</button>
+                <br>
+                <div class="alert alert-danger hidden" role="alert">
+                 <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                  <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+                  <span class="sr-only">Error:</span>
+                  Enter a valid email address
+                </div>
+              </form>
+            </div>
+          </div>
+    </div>
+  <script src="../js/jquery.min.js"></script>
+  <script src="../js/bootstrap.min.js"></script>
+  </body>
+</html>

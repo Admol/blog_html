@@ -1,0 +1,119 @@
+body{
+	padding-top:4.2em;
+	padding-bottom: 30px;
+	background: rgb(245, 245, 245);
+	font-family: Helvetica,Arial,"PingFang SC","Microsoft YaHei","WenQuanYi Micro Hei","tohoma,sans-serif";
+}
+
+a {
+	color:#000; 
+	text-decoration:none;
+}
+/* 首页a表情-鼠标移动上去样式 */
+a:hover {
+    color:#a1b8ef;
+    text-decoration: none;
+}
+
+
+/* 导航部分-开始 */
+
+/* 导航菜单a标签 */
+.navbar a{
+	padding-left: 18px;
+	padding-right: 20px;
+    color: #3d4044;
+    font-size: 18px;
+}
+
+/* 重写导航部分样式 */
+.navbar {
+    background-color: #fff;
+    border-color: #e7e7e7;
+    box-shadow: 0 1px 4px #ccc;
+}
+.navbar .navbar-collapse ul li a:hover{
+	color: #a1b8ef;
+}
+/* 导航部分-结束 */
+
+/* 首页文章样式  --------开始 */
+
+/* 首页文章简介样式 */
+.postsection{
+	background: #fff;
+	box-shadow: 0 2px 4px #ccc;
+	margin-bottom: 4px;
+	line-height: 1.8;
+	border-left: 4px solid #dfd7d4;
+}
+.postsection:hover{
+	border-left: 4px solid #a1b8ef;
+}
+/* 文章标题-a标签 */
+.textTitleA{
+	font-size: 24px;
+	text-decoration:none;
+	font-weight: 500;
+	color: #5A5A5A;
+}
+/* 文章描述文字样式 */
+.description{
+	font-size: 16px;
+	color: hsla(35, 4%, 48%, 0.88);
+}
+
+.articl-postsection{
+	background: #fafafa;
+	box-shadow: 0 2px 4px #ccc;
+	margin-bottom: 28px;
+	line-height: 1.8;
+	padding: 10px 16px;
+
+}
+
+/* 首页文章样式  --------结束 */
+
+
+/* 文章详情内容页面样式 ---------开始*/
+.articlTitleA{
+	font-size: 28px;
+	text-decoration:none;
+	font-weight: 500;
+	color: #a1b8ef;
+}
+.article-author{
+	 float: right;
+}
+.author{
+	color: #a1b8ef;
+	font-size: 14px;
+}
+/* 文章详情内容页面样式 ---------结束*/
+
+
+/* 分割线 */
+hr.diveder{
+	margin: 12px 0;
+}
+/* 分页样式 */
+nav ul.pagination{
+	margin-top: 6px;
+}
+/* 底部描述 */
+.blockquote-reverse{
+	border-right: 0px solid #eee;
+}
+
+
+
+
+
+
+
+
+/* **************************后台样式开始 ************************** */
+.bg-white{
+	background-color: #fff;
+}
+/* **************************后台样式结束 ************************** */
