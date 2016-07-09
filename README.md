@@ -1,5 +1,5 @@
 # blog_html
-博客静态文件
+博客静态文件,使用BootStrap
 
 首页:
 
